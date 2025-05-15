@@ -1,4 +1,5 @@
 import axiosInstance from './axiosInstance';
+let a = 5;
 
 export const apiGet = async <T>(url: string, params?: object): Promise<T> => {
   try {
