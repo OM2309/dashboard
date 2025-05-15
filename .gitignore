@@ -1,0 +1,57 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies and Build
+node_modules
+dist
+dist-ssr
+dist-assets/
+coverage/
+*.tsbuildinfo
+.vite/
+.temp/
+.cache/
+
+# Local and Editor Files
+*.local
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+.history/
+Thumbs.db
+*.bak
+*.tmp
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+!.env.example
+
+# Dependency Lock Files
+bun.lockb
+
+# Linting and Formatting
+.prettierrc
+.eslintcache
+
+# Vercel Deployment
+.vercel/
+vercel.json
+
+# Project-Specific
+public/locales/*/
